@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Este Programa calcula tu IMC (Indice de Masa Corporal)</h1>
+    <h2>Para poder caluclar su IMC ingrese la siguiente informacion</h2>
+    <p>Ingresa tu edad</p><input type="number" id="edad" required min="1" max="4" placeholder="Cuantos Años Tienes ?">
+    <p>Ingresa tu sexo</p><input type="text" id="sexo" required min="1" max="4" placeholder="Eres Hombre o Mujer ?">
+    <p>Ingresa tu peso</p><input type="number" id="peso" required min="1" max="4" placeholder="Cuanto Pesas en kilos ?">
+    <p>Ingresa tu altura</p><input type="number" id="altura" required min="1" max="4" placeholder="Cuanto mides en metros ?">
+    <button onclick="IMC();">Calcular</button>
+    <p id="resultado"></p>
+    
+    <script src="api.js"></script>
+</body>
+</html>
